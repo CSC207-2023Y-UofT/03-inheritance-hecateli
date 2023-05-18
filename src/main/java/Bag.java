@@ -12,7 +12,7 @@ public abstract class Bag {
     protected String color;
     protected int numberOfContents;
     protected int capacity;
-    private ArrayList<String> contents;
+    private ArrayList<String> contents = new ArrayList<String>();
 
     public Bag(String color, int capacity){
         this.color = color;
